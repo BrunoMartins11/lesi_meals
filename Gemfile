@@ -23,6 +23,7 @@ gem "sprockets", ">= 3.0.0"
 gem "title"
 gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin, :jruby]
 gem "webpacker"
+gem "bulma-rails", "~> 0.7.5"
 
 group :development do
   gem "listen"
