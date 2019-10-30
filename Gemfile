@@ -61,7 +61,8 @@ gem 'capybara-selenium', group: :test
 gem 'chromedriver-helper', group: :test
 gem 'simple_form'
 gem 'bullet', group: [:development, :test]
-gem 'factory_bot_rails', group: [:development, :test]
+gem 'factory_bot_rails', group: [ :test]
 gem 'delayed_job_active_record'
 gem 'inline_svg'
 gem 'rack-timeout', group: :production
+gem 'devise'

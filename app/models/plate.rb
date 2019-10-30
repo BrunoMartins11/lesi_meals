@@ -3,4 +3,6 @@ class Plate < ApplicationRecord
   validates :description, presence: true
   validates :rating, numericality: true
   validates :rating, length: {in: 0..10}
+
+  belongs_to :meal
 end
